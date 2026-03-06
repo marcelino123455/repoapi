@@ -43,7 +43,7 @@ async function connectToWhatsApp() {
             console.log('✅ ¡CONEXIÓN EXITOSA!');
             console.log('Esperando estabilización de sesión (10s)...');
             await delay(10000);
-            const id = '51900585116@s.whatsapp.net'; // Ejemplo para Perú (51)
+            const id = '51972355676@s.whatsapp.net'; // Ejemplo para Perú (51)
             
             const sentMsg = await sock.sendMessage(id, { 
                 text: 'Miau miau🚀' 
